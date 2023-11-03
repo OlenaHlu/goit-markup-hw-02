@@ -94,7 +94,6 @@ ul {
 }
 
 .button {
-  align-items: flex-start;
   background: #4d5ae5;
   cursor: pointer;
 
@@ -175,7 +174,6 @@ ul {
 
 .stars-position {
   color: #434455;
-  text-align: center;
   font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
@@ -192,7 +190,6 @@ ul {
 
 .portfolio-title {
   color: #2e2f42;
-  text-align: center;
   font-family: Roboto;
   font-size: 2.25rem;
   font-style: normal;
