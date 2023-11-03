@@ -1,7 +1,9 @@
 body {
   font-family: Roboto, sans-serif;
   background: #fff;
+  color: #2e2f42;
 }
+
 ul {
   list-style-type: none;
 }
@@ -32,7 +34,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
 }
-.list .link {
+.link {
   font-family: Roboto;
   color: #2e2f42;
   font-size: 1rem;
@@ -45,7 +47,7 @@ ul {
 
 /*adress menu*/
 
-.contacts .link {
+.contacts {
   text-decoration: none;
   font-family: Roboto;
   font-size: 1rem;
@@ -54,6 +56,14 @@ ul {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
   color: #434455;
+}
+
+.contacts:hover {
+  color: #4d5ae5;
+}
+
+.contacts:focus {
+  color: #4d5ae5;
 }
 
 /*main-section-one*/
@@ -81,6 +91,7 @@ ul {
   border-radius: 0.25rem;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 
   /*button text*/
 
@@ -115,8 +126,6 @@ ul {
   color: #434455;
   font-family: Roboto;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
 }
@@ -167,6 +176,39 @@ ul {
   font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
+}
+
+/*main-section-fourth*/
+
+.portfolio-conteiner {
+  background: #fff;
+}
+
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: 0.045rem;
+  text-transform: capitalize;
+}
+
+.project-card {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: #fff;
+}
+
+.project-name {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
 }
 
 /*footer*/
