@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   background: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -12,14 +12,13 @@ ul {
 
 .web-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
-  width: 2.75rem;
   text-decoration: none;
 }
 
@@ -44,8 +43,19 @@ ul {
   letter-spacing: 0.02rem;
   text-decoration: none;
 }
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
 
 /*adress menu*/
+
+.address {
+  font-style: normal;
+}
 
 .contacts {
   text-decoration: none;
@@ -59,11 +69,11 @@ ul {
 }
 
 .contacts:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .contacts:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /*main-section-one*/
@@ -79,16 +89,14 @@ ul {
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 1.07;
   letter-spacing: 0.07rem;
 }
 
 .button {
-  display: inline-flex;
   padding: 1rem 2rem;
   align-items: flex-start;
   gap: 0.625rem;
-  border-radius: 0.25rem;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -96,7 +104,7 @@ ul {
   /*button text*/
 
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -104,14 +112,19 @@ ul {
   letter-spacing: 0.04rem;
 }
 
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+
 /*main-section-two*/
 .directions {
   background: #fff;
 }
 
-.section-two {
-  display: none;
-}
 .section-two-headers {
   color: #2e2f42;
   font-family: Roboto;
@@ -143,13 +156,12 @@ ul {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.045rem;
   text-transform: capitalize;
 }
 
 .card-conteiner {
-  border-radius: 0rem 0rem 0.25rem 0.25rem;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -191,7 +203,7 @@ ul {
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.045rem;
   text-transform: capitalize;
 }
@@ -207,8 +219,18 @@ ul {
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5;
   letter-spacing: 0.025rem;
+}
+
+.project-direction {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
 }
 
 /*footer*/
@@ -219,11 +241,11 @@ ul {
 
 .footer-web {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -231,11 +253,11 @@ ul {
 
 .footer-studio {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway. sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
   text-decoration: none;
